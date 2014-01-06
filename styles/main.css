@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: Roboto,arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-y: scroll;
+}
+
+.homeContainer {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.pageTitle {
+	font-size: 80px;
+	color: #3498db;
+	margin-bottom: 40px;
+}
+
+.searchInputForm {
+	padding: 15px 20px;
+	border: 2px solid #3498db;
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 27px;
+}
+
+.searchInputForm i {
+	font-size: 18px;
+	color: #3498db;
+}
+
+.searchInput {
+	padding: 0;
+	margin: 0;
+	outline: 0 !important;
+	border: none;
+	background-image: none;
+	background-color: #fff;
+	width: 300px;
+	font-size: 18px;
+	color: #3498db;
+	float: left;
+	font-weight: 300;
+}
+
+.resultsHeader {
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+	background-color: #3498db;
+}
+
+.resultsHeader .header {
+	padding: 20px 0;
+	color: #fff;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.2);
+	font-weight: bold;
+}
+
+.resultsHeader .column {
+	padding: 20px 0;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	width: 50%;
+	float: left;
+}
+
+.homeResultSpot {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.results {
+	width: 100%;
+	background-color: #999;
+	overflow: hidden;
+}
+
+.results .column {
+	width: 50%;
+	float: left;
+}
+
+.artistItem {
+	text-align: left;
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+.artistItem img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.artistItem:hover,
+.artistItem:focus {
+	background-color: #666;
+}
+
+.artistName {
+	display: inline-block;
+}
+
+.songItem {
+	text-align: left;
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+.songItem i {
+	font-size: 40px;
+	color: rgba(255,255,255,0.4);
+}
+
+.songItem .iconCol {
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	margin-right: 15px;
+}
+
+.songItem .songName {
+	font-size: 16px;
+}
+
+.songItem .artistName {
+	font-size: 12px;
+	color: rgba(0,0,0,0.4);
+}
+
+.songItem:hover,
+.songItem:focus {
+	background-color: #666;
+}
+
+.artistContainer {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.artistHeader {
+	display: inline-block;
+	padding: 20px;
+	margin: 10px 0 20px 0;
+	text-align: center;
+}
+
+.artistHeader .artistName {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	min-width: 400px;
+	padding: 20px 50px;
+	background-color: #333;
+}
+
+.artistHeader img {
+	margin-bottom: 10px;
+}
+
+.similarArtistsList {
+	width: 400px;
+	background-color: #999;
+	margin: 0 auto;
+}
+
+.songContainer {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.songHeader {
+	display: inline-block;
+	padding: 40px;
+	margin: 10px 0 20px 0;
+	text-align: left;
+	background-color: #333;
+	min-width: 300px;
+}
+
+.songHeader i {
+	float: left;
+	font-size: 80px;
+	color: rgba(255,255,255,0.3);
+	margin-right: 20px;
+}
+
+.songHeader .songName {
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+.songHeader .artistName {
+	font-size: 20px;
+	font-weight: 300;
+	color: #ccc;
+	overflow: hidden;
+}
+
+.similarSongsList {
+	width: 400px;
+	background-color: #999;
+	margin: 0 auto;
+}
+
+.similarHeader {
+	width: 400px;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #666;
+	padding: 20px 0;
+	font-weight: bold;
+}
+
+.backHome {
+	display: inline-block;
+	background-color: #3498db;
+	color: #fff;
+	cursor: pointer;
+	padding: 20px 30px;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+.backHome i {
+	float: left;
+	margin-right: 5px;
+}
+
+.backHome .text {
+	overflow: hidden;
+}
+
+

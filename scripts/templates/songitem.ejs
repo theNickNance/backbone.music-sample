@@ -1,0 +1,11 @@
+<div class="songItem">
+	<div class="iconCol">
+		<i class="fa fa-music"></i>
+	</div>
+	<div class="songName"><%= model.get('name') %></div>
+	<% if (model.get('artist').name) { %>
+		<div class="artistName"><%= model.get('artist').name %></div>
+	<% } else { %>
+		<div class="artistName"><%= model.get('artist') %></div>
+	<% } %>
+</div>
